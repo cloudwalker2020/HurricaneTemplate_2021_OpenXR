@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.microsoft.mixedreality.openxr": {
+      "version": "file:MixedReality/com.microsoft.mixedreality.openxr-1.1.1.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.unity.xr.openxr": "1.2.8",
+        "com.unity.xr.arfoundation": "4.1.7"
+      }
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.15",
       "depth": 0,
@@ -161,6 +170,27 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.arfoundation": {
+      "version": "4.2.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.arsubsystems": "4.2.2",
+        "com.unity.xr.management": "4.0.1",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.arsubsystems": {
+      "version": "4.2.2",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.xr.management": "4.0.1"
       },
       "url": "https://packages.unity.com"
     },
